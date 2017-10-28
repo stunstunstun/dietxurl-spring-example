@@ -1,0 +1,11 @@
+### Gradle ###
+.gradle
+/build/
+build/
+/target/
+target/
+!gradle/wrapper/gradle-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea
+*.iml

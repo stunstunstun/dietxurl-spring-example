@@ -1,0 +1,84 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.shorten__container .link__box {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border: 1px solid #e6e6e6;
+  margin-bottom: 10px;
+  padding: 25px 40px 25px 40px;
+}
+
+.link__box .create__form {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.create__form input {
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px 7px 7px 7px;
+  font-size: 14px;
+  border: 1px solid #efefef;
+  border-radius: 3px;
+}
+
+.create__form input:focus {
+  outline: none;
+  border-color: #999;
+}
+
+.create__form input[type="button"] {
+  border: 0;
+  color: black;
+  font-weight: 600;
+  background-color: #ffff00;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.url__divider {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #999;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.url__divider:before {
+  content: '';
+  width: 20%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 7px;
+  left: 0px;
+}
+
+.url__divider:after {
+  content: '';
+  width: 20%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 7px;
+  right: 0px;
+}
+
+.copy__btn {
+  border: 0;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: blue;
+  padding: 10px;
+  cursor: pointer;
+  display: none;
+}

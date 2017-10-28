@@ -1,0 +1,4 @@
+rootProject.name = 'dietxurl'
+
+include 'domain', 'api'
+

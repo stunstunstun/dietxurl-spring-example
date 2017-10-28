@@ -1,0 +1,8 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .0975);
+  padding: 20px 20px;
+  font-weight: 600;
+}

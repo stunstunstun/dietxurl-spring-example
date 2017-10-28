@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>dietxurl</title>
+    <link rel="shortcut icon" th:href="@{/images/favicon.ico}" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" th:href="@{/css/styles.css}" />
+</head>
+<body>
+<nav class="navigation">
+    <span>DIETXURL</span>
+</nav>
+<main id="main">
+    <div class="shorten__container">
+        <div class="link__box">
+            <form method="get" class="create__form" onsubmit="return false;">
+                <input id="shorten_url" taborder="1" name="originLink" type="text" placeholder="Paste your fat link here" />
+                <input id="shorten_btn" type="button" value="Shorten" />
+            </form>
+            <span class="url__divider">
+            </span>
+            <button class="copy__btn" data-clipboard-text="">COPY</button>
+        </div>
+    </div>
+</main>
+<footer>
+    <span class="footer__copyright">© 2017 Minhyeok</span>
+</footer>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
+<script th:src="@{/js/app.js?v=20170829}"></script>
+</body>
+</html>

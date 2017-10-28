@@ -1,0 +1,3 @@
+insert into shorten_link(origin_link, link_id) values ('https://www.holaxprogramming.com/2017/08/26/devops-git-commands/', 'aaaaaa')
+insert into shorten_link(origin_link, link_id) values ('https://www.holaxprogramming.com/2017/08/16/java-history/', 'bbbbbb')
+insert into shorten_link(origin_link, link_id) values ('https://www.holaxprogramming.com/2017/07/04/devops-gradle-is-faster-than-maven/', 'cccccc')

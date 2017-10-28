@@ -1,0 +1,14 @@
+body {
+  margin: auto;
+  background: #fafafa;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+main {
+  margin: 50px 0;
+}
